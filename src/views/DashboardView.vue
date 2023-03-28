@@ -1,7 +1,10 @@
 <template>
-    <DefaultLayout>
-        <h1>Hello</h1>
-    </DefaultLayout>
+    <v-app>
+        <DefaultLayout>
+            <img src="../assets/image/Tarian_Wayang_Orang.png" alt="Tari Wayang Orang">
+    
+        </DefaultLayout>
+    </v-app>
 </template>
 
 <style>
