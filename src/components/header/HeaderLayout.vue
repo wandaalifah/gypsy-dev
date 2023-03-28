@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-grey-lighten-1">
-      <v-row justify="center" no-gutters>
+  <div class="bg-amber-lighten-3">
+      <v-row justify="space-between" no-gutters>
         <v-btn
           v-for="link in links"
           :key="link"
-          color="white"
+          color="black"
           variant="text"
-          class="mx-2"
+          class="mx-2 px-10"
           rounded="xl"
         >
           {{ link }}
@@ -20,12 +20,13 @@
     name: 'HeaderLayout',
     data: () => ({
       links: [
-        'Home',
+        'Logo',
+        'Events',
+        'Community',
+        'Research',
+        'Arts',
         'About Us',
-        'Team',
-        'Services',
-        'Blog',
-        'Contact Us',
+        'Login',
       ],
     }),
   }
