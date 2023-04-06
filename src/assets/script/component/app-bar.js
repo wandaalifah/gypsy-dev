@@ -14,19 +14,19 @@ class AppBar extends HTMLElement {
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="/" onclick="route()">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Events</a>
+              <a class="nav-link" href="/events" onclick="route()">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Community</a>
+              <a class="nav-link" href="/community" onclick="route()">Community</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Research</a>
+              <a class="nav-link" href="/research" onclick="route()">Research</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Arts</a>
+              <a class="nav-link" href="/arts" onclick="route()">Arts</a>
             </li>
           </ul>
         </div>
